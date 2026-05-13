@@ -62,8 +62,6 @@ This project aims to simplify that process using AI by converting technical medi
 - Prompt Engineering
 
 ## OCR & PDF Processing
-- PyMuPDF
-- pdfplumber
 - pytesseract
 
 ## Voice Generation
@@ -101,3 +99,144 @@ medical-report-explainer/
 │   └── medical_knowledge/
 │
 └── outputs/
+
+# ⚙️ Installation & Setup
+
+## 1. Clone Repository
+
+```bash
+git clone <your-repository-link>
+
+cd medical-report-explainer
+
+### Create virtual environment
+
+python -m venv venv
+
+
+# ⚙️ Installation & Setup
+
+## 1. Clone Repository
+
+```bash
+git clone <your-repository-link>
+cd medical-report-explainer
+```
+
+---
+
+## 2. Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### Activate Environment
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### Mac/Linux
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+## 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 4. Add API Key
+
+Create a `.env` file:
+
+```env
+GROQ_API_KEY=your_api_key_here
+```
+
+or
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+---
+
+## 5. Run Application
+
+```bash
+python -m streamlit run app.py
+```
+
+---
+
+# 📊 Current Capabilities
+
+✅ Blood report text extraction  
+✅ Abnormal value detection  
+✅ AI-generated explanation  
+✅ Voice summary generation  
+✅ Downloadable PDF summary  
+✅ Hindi/English support  
+
+---
+
+# ⚠️ Current Limitations
+
+- OCR accuracy may vary for scanned reports
+- Different lab formats may affect extraction
+- Not all blood tests are currently supported
+- AI explanations are informational only
+- Explanation is only limited to one language(English)
+
+---
+
+# 🔮 Future Improvements
+
+- Better OCR accuracy
+- Support for more medical tests
+- Better table extraction from reports
+- User profile support (age/gender)
+- Multilingual chatbot
+- Authentication system
+- Docker deployment
+- Encrypted report storage
+- Multilanguage explanation
+
+---
+
+# 📈 Impact & Improvement
+
+Although the project is still in the experimental and improvement stage, it successfully demonstrates how AI can simplify healthcare-related information.
+
+## Improvements Achieved
+
+- Reduced manual effort required to understand reports
+- Automated report extraction and explanation generation
+- Combined AI explanation, PDF export, and voice accessibility into one workflow
+- Improved accessibility through Hindi/English explanations and audio summaries
+
+---
+
+### Explanation
+
+This project solves a real-world problem where people receive medical reports but struggle to understand technical medical terminology. I built an AI-powered Medical Report Explainer that extracts text from uploaded reports, detects important blood test values, identifies abnormal parameters using rule-based logic, and generates simplified explanations using Generative AI.
+
+The application also provides precautions, diet suggestions, downloadable PDF summaries, and Hindi/English voice explanations to improve accessibility. While the project is still experimental and requires further improvements in OCR accuracy and report handling, it successfully demonstrates how AI can automate and simplify healthcare-related information in a user-friendly way.
+
+---
+
+# 👩‍💻 Author
+
+**Tannu Gupta**  
+B.Tech CSE | Data Science & Generative AI Enthusiast
+``
