@@ -17,7 +17,6 @@ An AI-powered healthcare support application that helps users understand blood t
 - Detect common blood test values
 - Identify Low / Normal / High values
 - Generate simplified AI explanations
-- Hindi and English support
 - Voice summary generation
 - Downloadable PDF summary
 - AI-generated precautions and diet suggestions
